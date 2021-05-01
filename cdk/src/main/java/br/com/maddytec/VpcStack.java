@@ -1,4 +1,4 @@
-package com.myorg;
+package br.com.maddytec;
 
 import software.amazon.awscdk.core.Construct;
 import software.amazon.awscdk.core.Stack;
