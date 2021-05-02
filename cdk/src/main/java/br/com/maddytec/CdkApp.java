@@ -1,7 +1,6 @@
 package br.com.maddytec;
 
 import software.amazon.awscdk.core.App;
-import software.amazon.awscdk.services.ecs.Cluster;
 
 public class CdkApp {
     public static void main(final String[] args) {

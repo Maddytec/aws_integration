@@ -1,9 +1,7 @@
 package br.com.maddytec;
 
-import software.amazon.awscdk.core.App;
 import software.amazon.awscdk.core.Construct;
 import software.amazon.awscdk.core.Stack;
-import software.amazon.awscdk.core.StackProps;
 import software.amazon.awscdk.services.ec2.Vpc;
 import software.amazon.awscdk.services.ecs.Cluster;
 
