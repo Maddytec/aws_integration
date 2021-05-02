@@ -1,5 +1,6 @@
 package br.com.maddytec;
 
+import lombok.Data;
 import lombok.Getter;
 import software.amazon.awscdk.core.Construct;
 import software.amazon.awscdk.core.Stack;
@@ -12,11 +13,7 @@ public class VpcStack extends Stack {
     private Vpc vpc;
 
     public VpcStack(final Construct scope, final String id) {
-        this(scope, id, null);
-    }
-
-    public VpcStack(final Construct scope, final String id, final StackProps props) {
-        super(scope, id, props);
+        super(scope, id, null);
 
        vpc = Vpc.Builder.create(this, "VpcMaddytec01")
                 .maxAzs(3)
